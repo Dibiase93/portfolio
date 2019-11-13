@@ -5,3 +5,15 @@ h1 {
 h2 {
   font-size: 40px;
   color: green; }
+
+.technical-skills {
+  display: flex;
+  flex-wrap: wrap; }
+  .technical-skills li {
+    width: 33%; }
+
+.hobby-container {
+  display: flex;
+  flex-wrap: wrap; }
+  .hobby-container .hobby-block {
+    width: 30%; }

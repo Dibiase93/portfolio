@@ -9,3 +9,19 @@ h2 {
   font-size: $font;
   color: green;
 }
+
+.technical-skills {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    width: 33%;
+  }
+}
+
+.hobby-container {
+  display: flex;
+  flex-wrap: wrap;
+  .hobby-block {
+    width: 30%;
+  }
+}
